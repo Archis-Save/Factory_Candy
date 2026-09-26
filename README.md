@@ -121,6 +121,3 @@ The dashboard loads `Nassau_Candy_cleaned.csv` by default and also supports uplo
 - Therefore exact profit impact cannot be calculated. Gross margin is used only as a risk/exposure proxy.
 - A product-level recommendation should not be executed without checking factory capacity, freight contracts, inventory positioning and service-level commitments.
 
-## Suggested GitHub Repository Name
-
-`nassau-candy-factory-optimization`
