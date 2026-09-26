@@ -99,7 +99,6 @@ The selected model is **Linear Regression**. Recommendation coverage is **86.7%*
 - `factory_recommendations.csv` — scenario recommendations
 - `Nassau_Candy_Research_Paper.docx` — research paper
 - `Nassau_Candy_Executive_Summary.docx` — executive summary
-- `Project_Feedback_Video_Script.txt` — video script
 - `requirements.txt` — Python dependencies
 
 ## Run Locally
@@ -108,16 +107,3 @@ The selected model is **Linear Regression**. Recommendation coverage is **86.7%*
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
-
-The dashboard loads `Nassau_Candy_cleaned.csv` by default and also supports uploading a CSV through the sidebar.
-
-## Important Interpretation Notes
-
-- This is a historical/descriptive and scenario-prediction project, not a guaranteed optimization engine.
-- The model error is substantial; recommendations should be validated operationally.
-- The source date fields generate unusually long lead times.
-- State/province centroid distances are approximate, not carrier route distances.
-- No factory-specific freight cost, capacity, inventory, or service-level data is available.
-- Therefore exact profit impact cannot be calculated. Gross margin is used only as a risk/exposure proxy.
-- A product-level recommendation should not be executed without checking factory capacity, freight contracts, inventory positioning and service-level commitments.
-
